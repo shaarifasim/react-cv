@@ -1,0 +1,98 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUXFxcVGBUVFxcXFRcVFRUXFxUXFxcYHSggGBolHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRktLTcrLTcrKzcrKystLS0tLSsrLTc3Ny0tKy0tLS0tLS0tKy03LS0rLS0tLS0tLSstLf/AABEIATAApgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHBABAQEAAgMBAAAAAAAAAAAAAAERAjEhcYFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAMB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6mloJqJFhgABQIJVAAwE1TQEUAAhAAUEExaBVTFBL5FqAGlhATFhhgCRQAKUDEi6gKSFAVAwANMAJQ0DAlAIYaAUlACkMICTVADRNJ0C0IAKgABoJqw+AGGGpQXFSKCJasMA1NOgFxMUAMKgKACSLIABgAaFNAgICooCgAgABqaoCoABgAItANDQSLqRYAGmArOrEBYGAIoAYYEBLFLUBaUAKUTQWQwwAVE0F0VAAqggWABFQAUBLCROKgFDQRQAMAASVcAKaQCwqKC4gAGKgAWkAFAQCAFhQApACAUAxUAwAAhhQIU0AsNEBbyCgAoCWhT9ADQEpq4YACAugAlWmAIYsaBmBSgGCgkDAAWUBCGkAhaLoIC2AlKRmg2gaCWqGgaqQ+AYIoEKAEMNAOISKCAaBosT2BChQWIuJQCUSApKqAECgEMASlUgJiiA1AgCAAUAF1MMANCgEoYAFpIaCUXAAIYAuIoIlUwCKkUEBcBNLTTQKABIAAAAGF8gGHEBI0iUF0DQASQGhKoIcg0EaqABgsoJoToBNaQAgYSAlqygAGrAQAAXWdBoTADRIoFIAGgASHnSgAkq0CkqcoSAYKAki2lignGqkLQVDQChYDCpilGgkUAADEWABUi0CIpYBAwgEoi2AEMNAIsQFgiggEAoAIuEADQtANCAQSKAACpAASxaAYi0AipFBATQVUAIBoFIqAqCYC6QAEsVQQpAAVKBQ0AtFAQoAKmgCpAACgaSosAABUIAi0iaCmhACAAqelB//9k=");
+  background-color: rgba(226, 238, 243, 0.699);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 span {
+  text-align: center !important;
+}
+/* .Skills {
+  display: flex;
+  list-style: none;
+} */
+ul li {
+  list-style: none;
+  font-size: 16px;
+  display: inline;
+  border: 1px solid;
+  line-height: 30px !important;
+  /* margin-left: 2rem; */
+  border-radius: 5px;
+  padding: 5px;
+}
+ul li:hover {
+  background-color: mediumblue;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+}
+
+.name-skils {
+  display: flex;
+  justify-content: flex-start;
+  /* width: 40%; */
+}
+.name {
+  width: 60%;
+}
+ul li a {
+  text-decoration: none;
+  /* color: black; */
+  font-size: 16px;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+  background-color: blue;
+}
+
+.skills-courses {
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+}
+.courses h2 {
+  /* width: 60%; */
+  margin-left: 40px;
+}
+.QC {
+  display: flex;
+}
+.courses {
+  width: 40%;
+  margin-top: 4rem;
+}
+.Qualification {
+  width: 60%;
+}
+.skills-exp {
+  display: flex;
+}
+.skills {
+  width: 60%;
+}
+.Skills ul li {
+  margin-left: 12% !important;
+}
+.exp {
+  widows: 40%;
+  margin-left: 2rem;
+}
+.img-S span img {
+  border-radius: 100% !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.img-SS {
+  display: flex;
+  justify-content: center;
+}
